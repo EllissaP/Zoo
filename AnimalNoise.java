@@ -1,3 +1,4 @@
+import model.Zebra;
 import model.Bird;
 import model.Cat;
 import model.Frog;
@@ -36,6 +37,9 @@ public class AnimalNoise {
 		
 		Cow biggy = new Cow();
 		System.out.println(biggy.speak());
+		
+		Zebra jacob = new Zebra();
+		System.out.println(jacob.speak());
 
 	}
 
