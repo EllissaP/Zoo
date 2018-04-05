@@ -2,6 +2,7 @@ import model.Bird;
 import model.Cat;
 import model.Frog;
 import model.Lion;
+import model.Snake;
 import model.Fox;
 import model.TrappedZooKeeper;
 import model.Goat;
@@ -37,7 +38,7 @@ public class AnimalNoise {
 		Cow biggy = new Cow();
 		System.out.println(biggy.speak());
 		
-		Snake Jerald = new Snake()
+		Snake Jerald = new Snake();
 		System.out.println(Jerald.speak());
 
 	}
